@@ -24,6 +24,7 @@
         .img-container { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; }
         .img-item { width: calc(33.333% - 1rem); border-radius: 6px; overflow: hidden; }
         .img-item img { width: 100%; height: auto; display: block; }
+        .resource-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1rem; margin-top: 1rem; }
     </style>
 </head>
 <body>
@@ -55,18 +56,36 @@
         <!-- TV 正片 -->
         <div class="card" id="anime">
             <h2>TV 正片</h2>
-            <div class="item">
-                <h3>《青春猪头少年不会梦到兔女郎学姐》 第1话 学姐是兔女郎</h3>
-                <a href="https://b23.tv/ep251076" target="_blank" rel="noopener noreferrer">点击前往 B 站观看</a>
+            <div class="resource-grid">
+                <div class="item">
+                    <h3>第一季 第1话</h3>
+                    <p>《青春猪头少年不会梦到兔女郎学姐》</p>
+                    <a href="https://b23.tv/ep251076" target="_blank" rel="noopener noreferrer">点击观看</a>
+                </div>
+                <div class="item">
+                    <h3>第二季 全集</h3>
+                    <p>《猪头少年梦不到兔女郎》</p>
+                    <a href="https://b23.tv/rs5xErU" target="_blank" rel="noopener noreferrer">点击观看</a>
+                </div>
             </div>
         </div>
 
         <!-- 剧场版 -->
         <div class="card" id="movie">
-            <h2>剧场版</h2>
-            <div class="item">
-                <h3>《青春猪头少年不会梦到怀梦美少女》</h3>
-                <a href="https://b23.tv/ep291775" target="_blank" rel="noopener noreferrer">点击前往 B 站观看</a>
+            <h2>剧场版（4K修复）</h2>
+            <div class="resource-grid">
+                <div class="item">
+                    <h3>《青春猪头少年不会梦到怀梦美少女》</h3>
+                    <a href="https://b23.tv/ep291775" target="_blank" rel="noopener noreferrer">点击观看</a>
+                </div>
+                <div class="item">
+                    <h3>《青春猪头少年不会梦到娇怜外出妹》</h3>
+                    <a href="https://b23.tv/fCN5Dcf" target="_blank" rel="noopener noreferrer">4K修复版</a>
+                </div>
+                <div class="item">
+                    <h3>《青春猪头少年不会梦到红书包女孩》</h3>
+                    <a href="https://b23.tv/i4etHoQ" target="_blank" rel="noopener noreferrer">4K修复版</a>
+                </div>
             </div>
         </div>
 
@@ -82,7 +101,9 @@
         <div class="card" id="about">
             <h2>关于本站</h2>
             <p class="disclaimer">
-                【免责声明】本站为粉丝非盈利交流站点，所有资源均来自互联网公开分享，仅作个人学习参考。版权归原作者及版权方所有，禁止商用或二次传播。若有侵权，请联系删除。
+                【免责声明】本站为粉丝非盈利交流站点，所有资源均来自互联网公开分享，仅作个人学习参考。
+                本站所提供的非官方链接均为第三方分享内容，版权归原作者及版权方所有，禁止商用或二次传播。
+                若有侵权，请联系删除。
             </p>
         </div>
     </div>
@@ -92,4 +113,3 @@
     </footer>
 </body>
 </html>
-
