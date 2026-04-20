@@ -3,69 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>人活着就是为了樱岛麻衣！</title>
+    <title>樱岛麻衣 - 专属资源站</title>
     <style>
-        *{margin:0;padding:0;box-sizing:border-box;}
-        body{background:#f0f2f5;font-family:微软雅黑;padding:30px 15px;}
-        .box{max-width:700px;margin:0 auto;}
-        h2{text-align:center;color:#222;margin-bottom:35px;}
-        .list-item{
-            background:#fff;
-            padding:14px 20px;
-            border-radius:8px;
-            margin-bottom:12px;
-            display:flex;
-            justify-content:space-between;
-            align-items:center;
-        }
-        .video-name{color:#333;font-size:15px;}
-        .down-btn{
-            background:#0066ff;
-            color:#fff;
-            padding:6px 18px;
-            border-radius:5px;
-            text-decoration:none;
-            font-size:14px;
-        }
-        .down-btn:hover{background:#0052cc;}
-        .dis{
-            margin-top:50px;
-            font-size:12px;
-            color:#777;
-            line-height:1.8;
-            border-top:1px solid #ddd;
-            padding-top:20px;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: "Microsoft Yahei", sans-serif; }
+        body { background: #121218; color: #eee; line-height: 1.6; }
+        header { background: #1a1a28; padding: 1rem 2rem; text-align: center; border-bottom: 1px solid #2d2d3f; }
+        header h1 { color: #ff87b5; margin-bottom: 0.5rem; }
+        header p { color: #aaa; }
+        .nav { display: flex; justify-content: center; gap: 2rem; padding: 1rem; background: #161622; flex-wrap: wrap; }
+        .nav a { color: #ccd; text-decoration: none; transition: 0.3s; }
+        .nav a:hover { color: #ff87b5; }
+        .container { max-width: 1200px; margin: 2rem auto; padding: 0 2rem; }
+        .card { background: #1a1a28; padding: 1.5rem; border-radius: 10px; margin-bottom: 2rem; border: 1px solid #2d2d3f; }
+        .card h2 { color: #ff87b5; margin-bottom: 1rem; border-left: 4px solid #ff87b5; padding-left: 10px; }
+        .item { background: #222233; padding: 1rem; border-radius: 6px; transition: 0.3s; margin-top: 1rem; }
+        .item:hover { background: #292940; }
+        .item a { color: #82b1ff; text-decoration: none; }
+        .disclaimer { color: #888; font-size: 14px; border-top: 1px solid #2d2d3f; padding-top: 1rem; margin-top: 2rem; }
+        footer { text-align: center; padding: 2rem; color: #666; font-size: 14px; }
+        .img-container { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; }
+        .img-item { width: calc(33.333% - 1rem); border-radius: 6px; overflow: hidden; }
+        .img-item img { width: 100%; height: auto; display: block; }
     </style>
 </head>
 <body>
-    <div class="box">
-        <h2>日漫《青春猪头少年系列》视频资源下载</h2>
+    <header>
+        <h1>人活着就是为了樱岛麻衣</h1>
+        <p>青春猪头少年系列 专属资源站</p>
+    </header>
 
-        <!-- 【在这里添加视频，复制下面整块即可】 -->
-        <div class="list-item">
-            <div class="video-name">第二季第一集</div>
-            <!-- href="https://www.123865.com/s/6ic7vd-y1hQA" -->
-            <a href="视频直链链接" target="_blank" class="down-btn">下载</a>
+    <div class="nav">
+        <a href="#intro">角色简介</a>
+        <a href="#anime">TV 正片</a>
+        <a href="#movie">剧场版</a>
+        <a href="#special">特别篇</a>
+        <a href="#about">免责声明</a>
+    </div>
+
+    <div class="container">
+        <!-- 角色简介 + 图片展示 -->
+        <div class="card" id="intro">
+            <h2>樱岛麻衣 角色简介</h2>
+            <p>樱岛麻衣，《青春猪头少年不会梦到兔女郎学姐》女主角。国民级人气演员，外表完美、性格成熟独立，因「青春期综合征」被周围人逐渐遗忘，与梓川咲太相遇后，彼此救赎。温柔又傲娇，理智且深情，是无数人心中的纯爱天花板。</p>
+            <div class="img-container">
+                <div class="img-item"><img src="https://picsum.photos/seed/mai1/400/300" alt="樱岛麻衣"></div>
+                <div class="img-item"><img src="https://picsum.photos/seed/mai2/400/300" alt="樱岛麻衣"></div>
+                <div class="img-item"><img src="https://picsum.photos/seed/mai3/400/300" alt="樱岛麻衣"></div>
+            </div>
         </div>
 
-        <div class="list-item">
-            <div class="video-name">第二季第二集</div>
-            <!-- href="https://www.123865.com/s/6ic7vd-j1hQA" -->
-            <a href="视频直链链接" target="_blank" class="down-btn">下载</a>
+        <!-- TV 正片 -->
+        <div class="card" id="anime">
+            <h2>TV 正片</h2>
+            <div class="item">
+                <h3>《青春猪头少年不会梦到兔女郎学姐》 第1话 学姐是兔女郎</h3>
+                <a href="https://b23.tv/ep251076" target="_blank" rel="noopener noreferrer">点击前往 B 站观看</a>
+            </div>
         </div>
-        <!-- 复制上面一段无限新增 -->
 
+        <!-- 剧场版 -->
+        <div class="card" id="movie">
+            <h2>剧场版</h2>
+            <div class="item">
+                <h3>《青春猪头少年不会梦到怀梦美少女》</h3>
+                <a href="https://b23.tv/ep291775" target="_blank" rel="noopener noreferrer">点击前往 B 站观看</a>
+            </div>
+        </div>
 
-        <!-- 免责声明（生效、防版权追责） -->
-        <div class="dis">
-            <strong>免责声明：</strong>
-            本页面仅为个人文件外链索引工具，所有文件均存储于第三方网盘，本站不储存、不上传、不发布任何影音内容。
-            所有资源仅供个人学习、参考、离线收藏使用，禁止商用、二次传播与公开分享。
-            若内容涉及版权侵权，版权所有人可联系本人，将第一时间删除对应链接。
-            使用者自行承担下载与使用带来的全部版权风险与法律责任。
+        <!-- 特别篇 -->
+        <div class="card" id="special">
+            <h2>特别篇</h2>
+            <div class="item">
+                <a href="https://search.bilibili.com/all?keyword=青春猪头少年" target="_blank" rel="noopener noreferrer">点击前往 B 站搜索“青春猪头少年”</a>
+            </div>
+        </div>
+
+        <!-- 关于本站 -->
+        <div class="card" id="about">
+            <h2>关于本站</h2>
+            <p class="disclaimer">
+                【免责声明】本站为粉丝非盈利交流站点，所有资源均来自互联网公开分享，仅作个人学习参考。版权归原作者及版权方所有，禁止商用或二次传播。若有侵权，请联系删除。
+            </p>
         </div>
     </div>
+
+    <footer>
+        人活着就是为了樱岛麻衣 | Made for Fans
+    </footer>
 </body>
 </html>
 
